@@ -1,1 +1,8 @@
-Gti komutları
+Git komutları
+
+--> git clone                   -- Download from an existing repository
+--> git status                  -- List or modifies file before commited
+--> git branch                  -- List all local branch
+--> git branch -av              -- List all local and remote branches
+--> git checkout a_branch       -- Switch branch
+--> git checkout -b newbranch   -- Create new branch
