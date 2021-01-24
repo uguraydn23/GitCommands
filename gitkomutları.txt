@@ -1,8 +1,15 @@
 Git komutları
 
---> git clone                    -- Download from an existing repository
---> git status                   -- List or modifies file before commited
---> git branch                   -- List all local branch
---> git branch -av               -- List all local and remote branches
---> git checkout a_branch        -- Switch branch
---> git checkout -b new_branch   -- Create new branch
+--> git clone                      -- Download from an existing repository
+--> git status                     -- List or modifies file before commited
+--> git branch                     -- List all local branch
+--> git branch -av                 -- List all local and remote branches
+--> git checkout a_branch          -- Switch branch
+--> git checkout -b new_branch     -- Create new branch
+--> git branch new_branch          -- Create new branch
+--> git branch -d new_branch       -- Delete "new_branch"
+--> git add .                      -- Adding all file to Staging(index) and ready to commit
+--> git add a_file                 -- Adding just a_file to Staging(index) and ready to commit
+--> git commit -m "first commit"   -- Adding commit to your local repository
+--> git pull origin master         -- Take vastest changes
+--> git push origin master         -- Push local changes to the origin
